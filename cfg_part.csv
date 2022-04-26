@@ -1,0 +1,24 @@
+# Configuration Partition Structure
+key,type,encoding,value
+command-cfg,namespace,,
+pass_hash,data,hex2bin,B2C8030D778F2893A288E97F9F09A25FECC2D733BF26C1F4B5D7B3D1A86FBF0C
+ota-cfg,namespace,,
+url,data,string,https://things.xeleqt.com:8070/hello-world.bin
+wifi-cfg,namespace,,
+ssid,data,string,hardware
+passwd,data,string,greentealami
+cloud-cfg,namespace,,
+host,data,string,mq.xeleqt.com
+port,data,u16,2883
+conntype,data,u8,0
+vl53l1-cfg,namespace,,
+offset,data,i16,-22
+xtalk,data,i16,0
+mode-cfg,namespace,,
+mode,data,u8,0
+d_threshold,data,i16,300
+authlevel,data,u8,8
+air-cfg,namespace,,
+update,data,i16,30
+time-cfg,namespace,,
+timezone,data,i8,8

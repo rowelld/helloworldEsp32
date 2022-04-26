@@ -1,0 +1,21 @@
+#ifndef COMPONENTS_LWGSM_USER_INCLUDE_GSM_USER_PRIVATE
+#define COMPONENTS_LWGSM_USER_INCLUDE_GSM_USER_PRIVATE
+
+#include "lwgsm/lwgsm_includes.h"
+#include "lwgsm/lwgsm_private.h"
+
+enum {
+    LWGSM_USER_CMD_START = LWGSM_CMD_END,
+    LWGSM_USER_CMD_CGDCONT,
+    LWGSM_USER_CMD_END,
+    LWGSM_USER_CMD_QURCCFG,
+    LWGSM_USER_CMD_QURCRST,
+    LWGSM_USER_CMD_QRICFG,
+    LWGSM_USER_CMD_PPP_DATA,
+    LWGSM_USER_CMD_PPP_EXIT,
+    LWGSM_USER_CMD_ATD_1,
+};
+
+lwgsmr_t gsmi_userinitiate_cmd(lwgsm_msg_t* msg);
+
+#endif /* COMPONENTS_LWGSM_USER_INCLUDE_GSM_USER_PRIVATE */
