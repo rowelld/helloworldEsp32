@@ -13,6 +13,7 @@
 #include "commands_parser.h"
 #include "mfc2160_app.h"
 #include "mfc2160_command.h"
+#include "mfc2160_enrollment.h"
 #include "fota.h"
 
 #define SUCCESS_STR "OK"
@@ -90,14 +91,10 @@ size_t command_parser_security(char *param, char *out, void *arg)
     return sprintf(out, SUCCESS_STR);
 }
 
-size_t command_parser_enroll(char *param, char *out, void *arg) {
-    uint8_t id = 0;
-    esp_err_t ret = mfc2160_app_enrollment(&id);
-    if (ret == ESP_OK) {
-        return sprintf(out, "OK\r\n%d", id);
-    } else {
-        return sprintf(out, ERROR_STR);
-    }       
+size_t command_parser_enroll(char *param, char *out, void *arg) {    
+    esp_err_t ret = mfc2160_enrollment_start();
+
+    return 1;
 }
 
 size_t command_parser_search(char *param, char *out, void *arg) {    
@@ -120,6 +117,14 @@ size_t command_parser_remove(char *param, char *out, void *arg) {
         return sprintf(out, ERROR_STR);
 }
 
+size_t command_parser_clear_all(char *param, char *out, void *arg) {
+    
+    if(mfc2160_app_empty_all() == ESP_OK) 
+        return sprintf(out, SUCCESS_STR);
+    else
+        return sprintf(out, ERROR_STR);
+}
+
 size_t command_parser_cancel(char *param, char *out, void *arg) {
 
     if (mfc2160_ps_cancel() != PS_OK) {
@@ -127,6 +132,13 @@ size_t command_parser_cancel(char *param, char *out, void *arg) {
     }
 
     return sprintf(out, SUCCESS_STR);
+}
+
+size_t command_parser_user_table(char *param, char* out, void *arg) {
+
+    
+
+    return 1;
 }
 
 size_t command_parser_ota_start(char *param, char *out, void *arg) {

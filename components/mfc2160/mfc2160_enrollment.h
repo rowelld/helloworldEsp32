@@ -5,6 +5,6 @@
 
 #include "esp_err.h"
 
-esp_err_t mfc2160_enrollment_start(uint8_t *id);
+esp_err_t mfc2160_enrollment_start(void);
 
 #endif /* COMPONENTS_MFC2160_MFC2160_ENROLLMENT */

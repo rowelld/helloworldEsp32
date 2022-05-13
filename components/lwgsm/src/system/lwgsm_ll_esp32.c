@@ -90,6 +90,7 @@ static void uart_event_task_entry(void* param) {
                                           GSM_CFG_UART_RX_BUFF_SIZE, 50);
 
                     if (len) {
+                        
                     }
                 }
                 /* code */

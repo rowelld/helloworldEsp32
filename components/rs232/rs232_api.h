@@ -4,9 +4,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 
-#define RS232_MODE_DEFAULT      (uint8_t)0
-#define RS232_MODE_TRANSPARENT  (uint8_t)1
-#define RS232_MODE_FINGERPRINT  (uint8_t)2
+#define RS232_MODE_TRANSPARENT  (uint8_t)0
 
 void rs232_api_init(void);
 

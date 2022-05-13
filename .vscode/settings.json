@@ -37,7 +37,9 @@
         "network_utils.h": "c",
         "gsm_user_private.h": "c",
         "gsm_modem_mode.h": "c",
-        "rs232_api.h": "c"
+        "rs232_api.h": "c",
+        "ppp.h": "c",
+        "tcpip_adapter.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "idf.adapterTargetName": "esp32"

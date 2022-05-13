@@ -22,3 +22,7 @@ air-cfg,namespace,,
 update,data,i16,30
 time-cfg,namespace,,
 timezone,data,i8,8
+gsm-cfg,namespace,,
+apn,data,string,spingine.m2m
+user,data,string,""
+pass,data,string,""

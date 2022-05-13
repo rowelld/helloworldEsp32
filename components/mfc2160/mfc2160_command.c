@@ -139,13 +139,12 @@ mfc2160_ps_result_t mfc2160_ps_read_index_table(uint8_t *indexTable) {
 
         uint8_t ret_pkg[64];
 
-        size_t len =
-            mfc2160_uart_read_bytes((uint8_t *)&ret_pkg, sizeof(ret_pkg));
+        size_t len = mfc2160_uart_read_bytes((uint8_t *)&ret_pkg, sizeof(ret_pkg));
 
         if (len == 0) {
             ret = PS_COMM_ERR;
         } else {
-            // ESP_LOGI(TAG, "Index Table! %d", x);
+            ESP_LOGI(TAG, "Index Table! %d", x);
             esp_log_buffer_hex(TAG, ret_pkg, len);
             ret = PS_OK;
             for (uint8_t i = 10; i < len - 2; i++) {

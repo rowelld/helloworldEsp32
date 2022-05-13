@@ -71,6 +71,7 @@ void commands_list_init(void)
     at_add_to_db("+FPENROLL", command_parser_enroll);
     at_add_to_db("+FPSEARCH", command_parser_search);
     at_add_to_db("+FPREMOVE", command_parser_remove);
+    at_add_to_db("+FPCLEAR", command_parser_clear_all);
     at_add_to_db("+FPCANCEL", command_parser_cancel);
 
     at_add_to_db("+OTA", command_parser_ota_start);

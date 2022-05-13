@@ -2,6 +2,7 @@
 
 #include <string.h>
 
+#include "cloud_api.h"
 #include "esp_log.h"
 #include "mfc2160_codes.h"
 #include "mfc2160_command.h"
@@ -55,16 +56,18 @@ static mfc2160_app_result_t imd_enroll(uint16_t uid, uint8_t bFirst) {
     return IR_ACCEPT;
 }
 
-
-
-esp_err_t mfc2160_enrollment_start(uint8_t *id) {
+esp_err_t mfc2160_enrollment_start(void) {
     esp_err_t ret = ESP_OK;
+    char res[64];
+    size_t l;
     update_UID();
 
     ESP_LOGI(TAG, "UID is %d", userID);
 
     for (int i = 0;; i++) {
         printf("Fingerprint sampling progress: %d \r\n", i + 1);
+        l = sprintf(res, "Sampling No: %d for user: %d", i + 1, userID);
+        cloud_api_send_rc_response((uint8_t*)res, l);
 
         check_finger_valid();
         mfc2160_app_result_t iR = imd_enroll(userID, i == 0 ? 1 : 0);
@@ -72,14 +75,18 @@ esp_err_t mfc2160_enrollment_start(uint8_t *id) {
         if (iR == IR_END) {
             printf("Fingerprint enroll success! %d\r\n", userID);
             ret = ESP_FAIL;
-            *id = userID;
+            l = sprintf(res, "ENROLL SUCCESS ID: %d", userID);
+            // *id = userID;
             break;
         }
         if (iR == IR_FAIL) {
             printf("FingerPrint enroll fail! \r\n");
+            l = sprintf(res, "ENROLL FAIL ID: %d", userID);
             ret = ESP_FAIL;
             break;
         }
+
+        cloud_api_send_rc_response((uint8_t*)res, l);
     }
 
     update_UID();

@@ -15,6 +15,10 @@ size_t command_parser_search(char *param, char *out, void *arg);
 
 size_t command_parser_remove(char *param, char *out, void *arg);
 
+size_t command_parser_clear_all(char *param, char *out, void *arg);
+
+size_t command_parser_user_table(char *param, char* out, void *arg);
+
 size_t command_parser_cancel(char *param, char *out, void *arg);
 
 size_t command_parser_ota_start(char *param, char *out, void *arg);

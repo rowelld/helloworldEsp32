@@ -1,0 +1,65 @@
+﻿  gsm_netconn.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\api\gsm_netconn.c(553,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_network_api.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\api\gsm_network_api.c(120,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm.c(333,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_buff.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_buff.c(422,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_call.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_call.c(172,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_conn.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_conn.c(643,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_debug.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_debug.c(50,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_device_info.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_device_info.c(140,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_evt.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_evt.c(465,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_ftp.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_ftp.c(40,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_http.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_http.c(40,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_input.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_input.c(94,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_int.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_int.c(2325,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_mem.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_mem.c(458,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_network.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_network.c(170,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_operator.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_operator.c(121,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_parser.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_parser.c(977,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_pbuf.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_pbuf.c(554,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_phonebook.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_phonebook.c(334,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_ping.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_ping.c(40,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Compiling...
+  gsm_sim.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_sim.c(174,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_sms.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_sms.c(347,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_threads.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_threads.c(221,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_timeout.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_timeout.c(231,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_unicode.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_unicode.c(75,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_utils.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\gsm\gsm_utils.c(113,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_ll_win32.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\system\gsm_ll_win32.c(243,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  gsm_sys_win32.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\GSM_AT_Lib\src\system\gsm_sys_win32.c(374,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  netconn_client.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\snippets\netconn_client.c(124,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  network_utils.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\snippets\network_utils.c(75,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  sim_manager.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\snippets\sim_manager.c(31,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  main.c
+I:\Hardware\projects\AIM1\components\gsm-at-lib\examples\win32\netconn_client_rtos\main.c(106,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?

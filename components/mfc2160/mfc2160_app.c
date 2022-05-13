@@ -23,9 +23,9 @@ esp_err_t mfc2160_app_init(void) {
     }
 
     // mfc2160_ps_empty();
-    // uint16_t validNum;
-    // mfc2160_ps_valid_template_num(&validNum);
-    // ESP_LOGI(TAG, "Valid Num: %d", validNum);
+    uint16_t validNum;
+    mfc2160_ps_valid_template_num(&validNum);
+    ESP_LOGI(TAG, "Valid Num: %d", validNum);
 
     return err;
 }
@@ -33,13 +33,6 @@ esp_err_t mfc2160_app_init(void) {
 esp_err_t mfc2160_app_deinit(void) {
     mfc2160_uart_deinit();
     return ESP_OK;
-}
-
-esp_err_t mfc2160_app_enrollment(uint8_t *uid) {
-    uint8_t id;
-    esp_err_t ret = mfc2160_enrollment_start(&id);
-    *uid = id;
-    return ret;
 }
 
 esp_err_t mfc2160_app_empty_all(void) {
